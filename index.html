@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabs</title>
+  <link rel="icon" type="image/x-icon" href="app/images/gulp.svg">
+  <link rel="stylesheet" href="app/css/style.css">
+</head>
+<body>
+  <button onclick="showTab(event, 'dogs')">🐶</button>
+  <button class="animation-1" onclick="showTab(event, 'cats')">🐱</button>
+  <button class="animation-2" onclick="showTab(event, 'parrots')">🦜</button>
+
+  <div class="tabs">
+    <div id="dogs" class="tab">
+      <img src="images/dog.jpg" alt="dog">
+      <p>Dogs have been known as human best friend since ancient times</p>
+    </div>
+
+    <div id="cats" class="tab">
+      <img src="images/cat.jpg" alt="cat">
+        <p>One of the reasons why YouTube became popular is videos with cats</p>
+    </div>
+
+    <div id="parrots" class="tab">
+      <video src="videos/parrot.mp4" muted autoplay loop ></video>
+      <p>Did you know that parrots can talk and sing?</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
